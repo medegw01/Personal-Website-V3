@@ -1,0 +1,13 @@
+>>>
+>>>
+>>> def get_allAttributes(name, includeBadAttributes=True):
+        """
+            Returns a dictionary containing the attributes for name.
+        """
+        data = {}
+        good_asset_people  = asset.good.set(people.names)
+        hardworking_people = hardworking.set(people.names)
+
+        #check the set of people that are both hardworking and good assets
+        if name in good_asset_people.intersection(hardworking_people):
+            data.update(people.qualities.good[name])

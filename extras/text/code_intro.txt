@@ -1,0 +1,5 @@
+"""
+Welcome to my console. I will be writing some python codes.This script will give a summary
+of Michael Edegware. If you hate coding, you can cancel(red) or minimize(yellow) from above.
+Enjoy X
+"""

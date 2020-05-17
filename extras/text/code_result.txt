@@ -1,0 +1,12 @@
+
+>>>
+>>>
+>>> Michael = namedtuple('Michael', sorted(get_allAttributes('Michael Edegware')))
+>>> Michael.origin
+"Boston, MA"
+>>>
+>>> Michael.education
+"Tufts University"
+>>>
+>>> Michael.major
+"Mechanical Engineering"

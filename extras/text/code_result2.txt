@@ -1,0 +1,12 @@
+>>>
+>>> Michael.minor
+"Computer Science"
+>>>
+>>> Michael.degree
+"Bachelors"
+>>> Michael.interests
+[
+  "Code", "Robotics", "Artificial Intelligence",
+  "Machine Learning", "digital painting",
+  "Poetry", "Free food"
+]

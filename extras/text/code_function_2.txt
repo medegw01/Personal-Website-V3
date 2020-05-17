@@ -1,0 +1,9 @@
+        #check the set of people with bad attributes
+        if includeBadAttributes:
+            bad_asset_people  = asset.bad.set(people.names)
+            liability_people = liability.set(people.names)
+
+        if name in bad_asset_people.union(*liability_people):
+            #add the attributes to data
+            data.update(people.qualities.bad[name])
+        return data

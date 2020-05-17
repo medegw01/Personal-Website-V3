@@ -1,0 +1,6 @@
+
+>>> from collection import namedtuple
+>>> from organism import  people
+>>> from qualities import asset, liability, hardworking
+>>>
+>>> import skills

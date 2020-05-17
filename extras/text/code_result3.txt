@@ -1,0 +1,10 @@
+>>>
+>>> Michael.workExperience.latest
+{
+  company: "RightHandRobotics, Inc."
+  role: "Software Engineering Intern"
+  startDate: "August 2019"
+  endDate: "None"
+}
+ >>> Michael.liabilities
+ None
